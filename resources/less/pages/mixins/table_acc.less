@@ -1,0 +1,60 @@
+.acc_table_wrapper{
+    width: 90%;
+    .b_md-block({
+        width: 100%;
+    });
+}
+.acc_table_row{
+    width: 100%;
+    font-size: 18px;
+    font-family: "Montserrat";
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    border-bottom: 2px solid @gray;
+    margin-bottom: 20px;
+    .b_md-block({
+        font-size: 16px;
+    });
+    .sm-block({
+        font-size: 14px;
+    });
+    .xs-block({
+        font-size: 12px;
+        flex-direction: column;
+        align-items: flex-start;
+    });
+    &__title{
+        min-width: 25%;
+        .b_md-block({
+            min-width: 130px;
+        });
+        .sm-block({
+            min-width: 90px;
+        });
+        .xs-block({
+            font-weight: bold;
+            margin-bottom: 5px;
+        });
+    }
+    &__edit_btn{
+        margin-left: auto;
+        .xs-block({
+            font-weight: bold;
+            margin-top: 10px;
+            margin-left: 0;
+        });
+    }
+}
+.acc_edit_btn_link{
+    padding: 5px;
+    color: @blue;
+    cursor: pointer;
+    transition: all .4s;
+    &:hover{
+        text-decoration: underline;
+    }
+    .xs-block({
+        padding: 0;
+    });
+}

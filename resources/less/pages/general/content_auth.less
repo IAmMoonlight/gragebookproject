@@ -1,0 +1,141 @@
+.content_auth_wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.menu_auth_btn{
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    width: 22px;
+    height: 22px;
+    bottom: 120px;
+    left: 10px;
+    background: @blue;
+    padding: 12px 14px;
+    border-radius: 50%;
+    opacity: .7;
+    cursor: pointer;
+    transition: all .4s;
+    &:hover{
+        opacity: 1;
+    }
+    .md-block({
+        display: block;
+    });
+    .sm-block({
+        width: 18px;
+        height: 18px;
+        padding: 10px 12px;
+    });
+    img{
+        width: 100%;
+    }
+}
+.hide_btn_auth{
+    display: none !important;
+}
+
+
+.aside_wrapper{
+    height: 100%;
+    width: 25%;
+    background: @gray;
+    transition: all .4s;
+    .b_md-block({
+        width: 32%;
+    });
+    .md-block({
+        position: fixed;
+        z-index: 9998;
+        width: 45%;
+        top: 0;
+        left: -999px;
+    });
+    .sm-block({
+        width: 55%;
+    });
+    .xs-block({
+        width: 100%;
+    });
+}
+.show_menu_auth{
+    left: 0 !important;
+}
+
+aside{
+    padding: 50px 30px;
+    .b_md-block({
+        padding: 30px;
+    });
+    .md-block({
+        padding: 80px 25px 25px;
+    });
+    .xs-block({
+        padding: 80px 10px 10px;
+    });
+}
+
+.menu_auth_link{
+    font-family: "MontserratBold";
+    font-size: 16px;
+    padding: 10px;
+    color: @black;
+    background: @white;
+    cursor: pointer;
+    transition: all .4s;
+    &:hover{
+        background: darken(@gray, 3%);
+        color: @blue;
+    }
+    &_active{
+        background: @blue !important;
+        color: @white !important;
+    }
+    .b_md-block({
+        font-size: 14px;
+    });
+    .md-block({
+        padding: 10px 30px;
+    });
+    .sm-block({
+        font-size: 12px;
+        padding: 8px 22px;
+    });
+}
+
+
+
+.content_wrapper{
+    height: 100%;
+    width: 75%;
+    .b_md-block({
+        width: 68%;
+    });
+    .md-block({
+        width: 100%;
+    });
+}
+.content_auth{
+    padding: 50px 30px;
+    .b_md-block({
+        padding: 30px 30px 50px;
+    });
+}
+.content_auth_title{
+    font-family: "MontserratBold";
+    font-size: 22px;
+    margin-bottom: 44px;
+    .b_md-block({
+        font-size: 20px;
+    });
+    .md-block({
+        text-align: center;
+    });
+    .sm-block({
+        font-size: 18px;
+        margin-bottom: 36px;
+    });
+}
+

@@ -1,0 +1,58 @@
+.tutors_section{
+    margin: 50px 0;
+}
+.tutors_title{
+    margin-bottom: 30px;
+    font-family: "MontserratBold";
+    font-size: 26px;
+    text-align: center;
+    .b_md-block({
+        font-size: 22px;
+    });
+    .md-block({
+        font-size: 20px;
+    });
+    .sm-block({
+        font-size: 18px;
+        margin-bottom: 20px;
+    });
+}
+.tutors{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    .size(12);
+}
+.tutor_block{
+    .size(3);
+    .col();
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    .md-block({
+        .size(4);
+    });
+    .sm-block({
+        margin-bottom: 20px;
+        .size(6);
+    });
+    .xs-block({
+        margin: 0 auto 20px;
+        .size(9);
+    });
+    
+    &__fullname{
+        width: 100%;
+        text-align: center;
+        font-family: "MontserratBold";
+        font-size: 16px;
+        margin-top: 5px;
+        .md-block({
+            font-size: 14px;
+        });
+        .xs-block({
+            margin-top: 0px;
+        });
+    }
+}

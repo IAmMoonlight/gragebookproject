@@ -1,0 +1,25 @@
+*{
+  scrollbar-width: thin;
+  scrollbar-color: @blue @black;
+}
+*::-webkit-scrollbar {
+  width: 9px;
+  .md-block({
+  	width: 7px;
+  });
+  .xs-block({
+  	width: 5px;
+  });
+}
+*::-webkit-scrollbar-track {
+  background: @black;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: @blue;
+  border-radius: 10px;
+}
+
+// hidden scroll body, when open filter
+.hide_scroll{
+	overflow: hidden;
+}
