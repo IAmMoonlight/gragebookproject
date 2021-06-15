@@ -14033,8 +14033,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\OpenServer\domains\gradebook\src\js\app.js */"./src/js/app.js");
-module.exports = __webpack_require__(/*! C:\OpenServer\domains\gradebook\src\less\app.less */"./src/less/app.less");
+__webpack_require__(/*! C:\OpenServer\domains\gragebookproject\src\js\app.js */"./src/js/app.js");
+module.exports = __webpack_require__(/*! C:\OpenServer\domains\gragebookproject\src\less\app.less */"./src/less/app.less");
 
 
 /***/ })

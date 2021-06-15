@@ -1497,6 +1497,13 @@ aside {
     width: 90%;
   }
 }
+.successful_file_upload {
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: "MontserratBold";
+  text-align: center;
+  color: #0873be;
+}
 .acc_table_wrapper {
   width: 90%;
 }
@@ -1649,7 +1656,6 @@ aside {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 30px 0 20px;
-  font-size: 16px;
   font-family: "MontserratBold";
   border-radius: 4px;
   border: none;
@@ -1670,13 +1676,24 @@ aside {
     width: 100%;
   }
 }
+.accordeon_btn__text {
+  font-size: 16px;
+}
+@media screen and (max-width: 1000px) {
+  .accordeon_btn__text {
+    font-size: 14px;
+  }
+}
 .accordeon_btn__show {
-  width: 16px;
-  height: 16px;
+  width: 18px;
+  height: 18px;
   padding: 5px;
-  -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-          transform: rotate(45deg);
+}
+@media screen and (max-width: 1000px) {
+  .accordeon_btn__show {
+    width: 15px;
+    height: 15px;
+  }
 }
 .table_item_tabs {
   display: -webkit-box;
@@ -1714,12 +1731,12 @@ aside {
   }
 }
 .table_item_select_tabs {
-  display: none;
+  width: 90% !important;
+  margin-top: 0 !important;
 }
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 1200px) {
   .table_item_select_tabs {
-    display: block;
-    margin-top: 0 !important;
+    width: 100% !important;
   }
 }
 .table_item_wrapper {
@@ -1910,9 +1927,6 @@ aside {
   width: 100%;
   border-bottom: 1px solid #888;
 }
-.table_item_attend_row:first-child {
-  border-top: 1px solid #888;
-}
 .table_attend__col_date {
   padding: 10px 2px;
   text-align: center;
@@ -2018,9 +2032,6 @@ aside {
 }
 .attendance_color_red {
   background: #ef2525;
-}
-.attendance_color_yellow {
-  background: #ffd640;
 }
 .attendance_color_green {
   background: #52d538;

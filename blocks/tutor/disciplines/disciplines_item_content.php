@@ -29,18 +29,11 @@
                     Аттестация с <span>12.02.2021</span> по <span>18.03.2021</span>
                 </div>
                 <div class="accordeon_btn__show">
-                    <img src="assets/img/close.png" alt="close">
+                    <img src="assets/img/plus.png" alt="plus">
+<!--                <img src="assets/img/minus.png" alt="minus">-->
                 </div>
             </div>
 
-            <!-- Вывод табов до ширины экрана 560px -->
-            <div class="table_item_tabs">
-                <div class="table_item_tab table_item_tab_active">Лекции</div>
-                <div class="table_item_tab">Практики</div>
-                <div class="table_item_tab">Лабораторные</div>
-                <div class="table_item_tab">Тесты</div>
-            </div>
-            <!-- Вывод табов на телефонах - 560px и менее -->
             <div class="form_block table_item_select_tabs">
                 <select class="form_block__select" name="type_lesson" id="type_lesson" required>
                     <option value="1">Лекции</option>
@@ -82,18 +75,11 @@
                     Аттестация с <span>19.03.2021</span> по <span>24.04.2021</span>
                 </div>
                 <div class="accordeon_btn__show">
-                    <img src="assets/img/close.png" alt="close">
+                    <img src="assets/img/plus.png" alt="plus">
+<!--                <img src="assets/img/minus.png" alt="minus">-->
                 </div>
             </div>
 
-            <!-- Вывод табов до ширины экрана 560px -->
-            <div class="table_item_tabs">
-                <div class="table_item_tab table_item_tab_active">Лекции</div>
-                <div class="table_item_tab">Практики</div>
-                <div class="table_item_tab">Лабораторные</div>
-                <div class="table_item_tab">Тесты</div>
-            </div>
-            <!-- Вывод табов на телефонах - 560px и менее -->
             <div class="form_block table_item_select_tabs">
                 <select class="form_block__select" name="type_lesson" id="type_lesson" required>
                     <option value="1">Лекции</option>
@@ -135,17 +121,11 @@
                     Посещаемость
                 </div>
                 <div class="accordeon_btn__show">
-                    <img src="assets/img/close.png" alt="close">
+                    <img src="assets/img/plus.png" alt="plus">
+<!--                <img src="assets/img/minus.png" alt="minus">-->
                 </div>
             </div>
 
-            <!-- Вывод табов до ширины экрана 560px -->
-            <div class="table_item_tabs">
-                <div class="table_item_tab table_item_tab_active">Лекции</div>
-                <div class="table_item_tab">Практики</div>
-                <div class="table_item_tab">Лабораторные</div>
-            </div>
-            <!-- Вывод табов на телефонах - 560px и менее -->
             <div class="form_block table_item_select_tabs">
                 <select class="form_block__select" name="type_lesson" id="type_lesson" required>
                     <option value="1">Лекции</option>
@@ -183,7 +163,8 @@
                     Финальный контроль
                 </div>
                 <div class="accordeon_btn__show">
-                    <img src="assets/img/close.png" alt="close">
+                    <img src="assets/img/plus.png" alt="plus">
+<!--                <img src="assets/img/minus.png" alt="minus">-->
                 </div>
             </div>
 
@@ -212,15 +193,12 @@
                 <a href="#" class="download_clean_file">Скачать чистый файл</a>
             </div>
 
-            <!-- Vue -->
-            <!-- <div id="TableItemDiscipline"></div> -->
-
         </div>
     </div>
 
 </div>
 
-<div class="upload_file_wrapper">
+<div class="upload_file_wrapper hide">
     <div class="btn_close_upload">
         <img src="assets/img/close.png" alt="btn_close_upload">
     </div>
@@ -240,14 +218,15 @@
                 <option value="2">Практики</option>
                 <option value="3">Лабораторные</option>
                 <option value="4">Тесты</option>
-                <option value="4">Экзамен</option>
-                <option value="4">Курсовая</option>
+                <option value="5">Экзамен</option>
+                <option value="6">Курсовая</option>
             </select>
             <span class="form_block__select--focus">Тип дисциплины</span>
         </div>
         <div class="btn_submit_wrapper">
             <input type="submit" class="btn_submit" value="Сохранить" disabled>
         </div>
+        <div class="successful_file_upload">Файл успешно загружен!</div>
     </form>
 </div>
 

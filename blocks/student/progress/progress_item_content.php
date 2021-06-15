@@ -41,21 +41,14 @@
                     Аттестация с <span>12.02.2021</span> по <span>18.03.2021</span>
                 </div>
                 <div class="accordeon_btn__show">
-                    <img src="assets/img/close.png" alt="close">
+                    <img src="assets/img/plus.png" alt="plus">
+<!--                <img src="assets/img/minus.png" alt="minus">-->
                 </div>
             </div>
             <div class="item_basic_info_wrapper">
                 Количество баллов: <span>20</span>
             </div>
 
-            <!-- Вывод табов до ширины экрана 560px -->
-            <div class="table_item_tabs">
-                <div class="table_item_tab table_item_tab_active">Лекции</div>
-                <div class="table_item_tab">Практики</div>
-                <div class="table_item_tab">Лабораторные</div>
-                <div class="table_item_tab">Тесты</div>
-            </div>
-            <!-- Вывод табов на телефонах - 560px и менее -->
             <div class="form_block table_item_select_tabs">
                 <select class="form_block__select" name="type_lesson" id="type_lesson" required>
                     <option value="1">Лекции</option>
@@ -90,21 +83,14 @@
                     Аттестация с <span>19.03.2021</span> по <span>24.04.2021</span>
                 </div>
                 <div class="accordeon_btn__show">
-                    <img src="assets/img/close.png" alt="close">
+<!--                 <img src="assets/img/plus.png" alt="plus">-->
+                     <img src="assets/img/minus.png" alt="minus">
                 </div>
             </div>
             <div class="item_basic_info_wrapper">
                 Количество баллов: <span>14</span>
             </div>
-            
-            <!-- Вывод табов до ширины экрана 560px -->
-            <div class="table_item_tabs">
-                <div class="table_item_tab table_item_tab_active">Лекции</div>
-                <div class="table_item_tab">Практики</div>
-                <div class="table_item_tab">Лабораторные</div>
-                <div class="table_item_tab">Тесты</div>
-            </div>
-            <!-- Вывод табов на телефонах - 560px и менее -->
+
             <div class="form_block table_item_select_tabs">
                 <select class="form_block__select" name="type_lesson" id="type_lesson" required>
                     <option value="1">Лекции</option>
@@ -139,7 +125,8 @@
                     Посещаемость
                 </div>
                 <div class="accordeon_btn__show">
-                    <img src="assets/img/close.png" alt="close">
+                    <img src="assets/img/plus.png" alt="plus">
+<!--                <img src="assets/img/minus.png" alt="minus">-->
                 </div>
             </div>
 
@@ -158,20 +145,11 @@
                 <div class="attendance_colors_block">
                     <div class="item_basic_info_wrapper">
                         <div class="attendance_color attendance_color_red">Неуважительная</div>
-                        <div class="attendance_color attendance_color_yellow">По болезни</div>
                         <div class="attendance_color attendance_color_green">Уважительная</div>
                     </div>
                 </div>
             </div>
 
-
-            <!-- Вывод табов до ширины экрана 560px -->
-            <div class="table_item_tabs">
-                <div class="table_item_tab table_item_tab_active">Лекции</div>
-                <div class="table_item_tab">Практики</div>
-                <div class="table_item_tab">Лабораторные</div>
-            </div>
-            <!-- Вывод табов на телефонах - 560px и менее -->
             <div class="form_block table_item_select_tabs">
                 <select class="form_block__select" name="type_lesson" id="type_lesson" required>
                     <option value="1">Лекции</option>
@@ -202,7 +180,8 @@
                     Финальный контроль
                 </div>
                 <div class="accordeon_btn__show">
-                    <img src="assets/img/close.png" alt="close">
+                    <img src="assets/img/plus.png" alt="plus">
+<!--                <img src="assets/img/minus.png" alt="minus">-->
                 </div>
             </div>
             <div class="table_item_wrapper">

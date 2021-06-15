@@ -188,7 +188,7 @@ var initCheckInput = function initCheckInput() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\OpenServer\domains\gradebook\src\js\others\forms\attendance.js */"./src/js/others/forms/attendance.js");
+module.exports = __webpack_require__(/*! C:\OpenServer\domains\gragebookproject\src\js\others\forms\attendance.js */"./src/js/others/forms/attendance.js");
 
 
 /***/ })

@@ -136,7 +136,7 @@ window.addEventListener('load', function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\OpenServer\domains\gradebook\src\js\others\forms\forgot.js */"./src/js/others/forms/forgot.js");
+module.exports = __webpack_require__(/*! C:\OpenServer\domains\gragebookproject\src\js\others\forms\forgot.js */"./src/js/others/forms/forgot.js");
 
 
 /***/ })
