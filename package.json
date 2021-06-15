@@ -31,7 +31,6 @@
         "gsap": "^3.5.1",
         "swiper": "^6.6.2",
         "vue": "^2.6.12",
-        "vue-infinite-loading": "^2.4.5",
         "vue-template-compiler": "^2.6.12",
         "yarn": "^1.22.10"
     }

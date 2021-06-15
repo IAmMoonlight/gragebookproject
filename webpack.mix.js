@@ -1,15 +1,6 @@
 const mix = require('laravel-mix');
 
-/*
- |--------------------------------------------------------------------------
- | Mix Asset Management
- |--------------------------------------------------------------------------
- |
- | Mix provides a clean, fluent API for defining some Webpack build steps
- | for your Laravel applications. By default, we are compiling the CSS
- | file for the application as well as bundling up all the JS files.
- |
- */
+mix.setPublicPath('./');
 
 if (mix.inProduction()) {
     mix
@@ -31,14 +22,26 @@ if (mix.inProduction()) {
     ;
 }
 
+mix.less('src/less/app.less', 'assets/css/');
 
-mix.less('resources/less/app.less', 'public/css/');
-
-mix.js('resources/js/app.js', 'public/js/')
-    .js('resources/js/others/forms/login.js', 'public/js/')
-    .js('resources/js/others/forms/reset.js', 'public/js/')
-    .js('resources/js/others/forms/forgot.js', 'public/js/')
-    .js('resources/js/others/forms/admin_create_item.js', 'public/js/')
-    .js('resources/js/others/forms/attendance.js', 'public/js/')
+mix.js('src/js/app.js', 'assets/js/')
+    .js('src/js/others/forms/login.js', 'assets/js/')
+    .js('src/js/others/forms/reset.js', 'assets/js/')
+    .js('src/js/others/forms/forgot.js', 'assets/js/')
+    .js('src/js/others/forms/admin_create_item.js', 'assets/js/')
+    .js('src/js/others/forms/attendance.js', 'assets/js/')
     .extract(['vue'])
     .version();
+
+
+// mix.browserSync({
+//     files: [
+//         './**/*.php',
+//         './assets/**/*.(js|css)'
+//     ],
+//     watch: true,
+//     host: 'localhost',
+//     //Домен на локальном сервере
+//     proxy: 'gradebookproject'
+// });
+
